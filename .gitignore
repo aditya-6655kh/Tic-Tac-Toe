@@ -33,3 +33,5 @@ vite.config.ts.timestamp*
 
 # Mac / Linux
 *.swp
+
+thingsToDoNext.txt
