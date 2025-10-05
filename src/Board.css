@@ -11,8 +11,8 @@
 }
 
 
-.controls{
-    margin-top: 20px;
+.controls {
+  margin-top: 20px;
 }  
 
 .controls button {
@@ -24,6 +24,7 @@
   background-color: rgba(215, 148, 55, 0.5);
   color: black;
   transition: background-color 0.2s ease, transform 0.1s ease;
+  margin: 0 10px;
 }
 
 .controls button:hover {
@@ -85,4 +86,58 @@
 
 .start-player button:hover {
   background-color: rgba(247, 193, 117, 0.5);
+}
+
+
+.player-name{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.player-name.x {
+  color: #ff5733; /* Color for Player X */
+}
+
+.player-name.o {
+  color: #33c3ff; /* Color for Player O */
+}
+
+.player-name input{
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* width: 120px; */
+  margin: 0 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.player-name input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.series-selector{
+  margin-bottom: 20px;
+}
+
+.series-selector select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 150px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
