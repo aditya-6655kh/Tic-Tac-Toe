@@ -51,12 +51,15 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aditya-6655kh/tic-tac-toe.git
-   cd tic-tac-toe
+   git clone https://github.com/aditya-6655kh/Tic-Tac-Toe.git
+   cd Tic-Tac-Toe
    ```
 
 2. Install dependencies:
 
+```bash
+   npm install
+   ```
 ```bash
    npm install
    ```
